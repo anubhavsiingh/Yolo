@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+  background-color: rgb(240, 240, 240);
+}
+
+body .mt-5 {
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: rgb(49, 8, 68);
+}
+
+body .row {
+  margin-left: 12%;
+  margin-right: 8%;
+  margin-top: 10px;
+  color: blanchedalmond;
+  float: center;
+  padding: 20px;
+}

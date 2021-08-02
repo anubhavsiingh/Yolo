@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Social Distance Violation</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css"
+    href={{url_for('static',filename='new.css') }} />
+  </head>
+
+  <body>
+    <div class="area">
+      <ul class="circles">
+        <div class="theme">
+          <div class="context">
+            <h1>Social Distancing Monitoring System</h1>
+          </div>
+
+          <form
+            action="/action_page"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <div class="b1">
+              <div class="form-group">
+                <label> Upload Video </label>
+                <div class="custom-file">
+                  <input
+                    type="file"
+                    class="custom-file-input"
+                    id="video"
+                    name="video"
+                  />
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+
+          <div class="b2">
+            <button
+              class="web webcam"
+              onclick="window.location.href='{{ url_for( 'webcam') }}';"
+            >
+              Use Webcam
+            </button>
+          </div>
+        </div>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.slim.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
