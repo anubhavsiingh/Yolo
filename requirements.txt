@@ -6,10 +6,6 @@ opencv-python==4.5.3.56
 regex==2020.6.8
 requests==2.24.0
 scipy==1.7.0
-tensorboard==2.2.2
-tensorboard-plugin-wit==1.7.0
-tensorflow==2.5.0rc0
-tensorflow-estimator==2.2.0
 twilio==6.50.1
 webencodings==0.5.1
 Werkzeug==1.0.1
