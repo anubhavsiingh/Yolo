@@ -1,5 +1,5 @@
-from Package import social_distancing_configuration as config
-from Package.object_detection import detect_people
+import social_distancing_configuration as config
+from object_detection import detect_people
 from scipy.spatial import distance as dist
 import numpy as np
 import imutils
