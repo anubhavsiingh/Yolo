@@ -13,3 +13,4 @@ widgetsnbextension==3.5.1
 wrapt==1.12.1
 WTForms==2.3.
 Jinja2==2.11.1
+gunicorn==19.9.0
